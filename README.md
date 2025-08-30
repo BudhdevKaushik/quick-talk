@@ -1,2 +1,1 @@
-# quick-talk
-A MERN Stack application for the chating.
+A real-time chat application for instant and seamless communication.
