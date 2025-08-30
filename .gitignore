@@ -1,0 +1,80 @@
+# =========================
+# Node / Backend (backend/)
+# =========================
+backend/node_modules/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/pnpm-debug.log*
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+
+# Backend build & coverage
+backend/dist/
+backend/build/
+backend/coverage/
+backend/.nyc_output
+
+# Logs
+backend/logs
+backend/*.log
+backend/*.out
+backend/*.pid
+backend/*.seed
+backend/*.pid.lock
+
+# =========================
+# React / Frontend (frontend/)
+# =========================
+frontend/node_modules/
+frontend/build/
+frontend/coverage/
+frontend/.nyc_output
+
+# Frontend env files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Misc
+frontend/.DS_Store
+frontend/*.pem
+
+# =========================
+# General (root)
+# =========================
+node_modules/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# System / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# Optional (if using Docker)
+# =========================
+docker-compose.override.yml
+.docker/
+.dockerignore
