@@ -1,11 +1,13 @@
 import React, { useState } from "react";
-import Button from "../ui/Button";
 import { Check } from "lucide-react";
-import Checkbox from "../ui/Checkbox";
-import { Link } from "react-router-dom";
-import InputField from "../ui/InputField";
 
-const LoginForm: React.FC = () => {
+import { Link } from "react-router-dom";
+import InputField from "../components/ui/InputField";
+import Checkbox from "../components/ui/Checkbox";
+import Button from "../components/ui/Button";
+
+
+const Login: React.FC = () => {
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -82,4 +84,4 @@ const LoginForm: React.FC = () => {
   );
 };
 
-export default LoginForm;
+export default Login;
