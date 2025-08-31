@@ -1,7 +1,9 @@
 import React, { Fragment } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import LoginForm from "./components/forms/LoginForm";
 import AuthLayout from "./components/layouts/AuthLayout";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+
 
 const App: React.FC = () => {
   return (
@@ -9,7 +11,8 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/auth" element={<AuthLayout />}>
           <Route index element={<Navigate to="login" replace />} />
-          <Route path="login" element={<LoginForm />} />
+          <Route path="login" element={<Login />} />
+          <Route path="signup" element={<Register />} />
         </Route>
       </Routes>
     </Fragment>
